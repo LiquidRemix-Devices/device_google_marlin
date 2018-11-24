@@ -23,4 +23,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 BUILD_FINGERPRINT := google/marlin/marlin:9/PPR2.181005.003.A1/5108978:user/release-keys
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.bootleggers.maintainer=stebomurkn420
+
 $(call inherit-product-if-exists, vendor/google/marlin/marlin-vendor.mk)
