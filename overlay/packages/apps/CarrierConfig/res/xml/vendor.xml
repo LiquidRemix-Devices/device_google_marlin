@@ -72,6 +72,7 @@
     </carrier_config>
     <carrier_config mcc="262" mnc="07">
         <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="hide_ims_apn_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="262" mnc="08">
